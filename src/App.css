@@ -1,0 +1,27 @@
+.app{
+	text-align: center;
+	padding-top: 30px;
+	text-align: left;
+}
+.app > * {
+	width: 100%;
+
+}
+
+.row {
+	padding-bottom: 50px;
+}
+#root {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+}
+.consumtpion-title {
+	font-weight: 600;
+	text-align: center;
+}
+
+@keyframes App-logo-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
